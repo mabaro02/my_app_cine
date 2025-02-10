@@ -16,7 +16,7 @@ services:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     container_name: contenedorPhpMyAdmin
-    enviroment:
+    environment:
       PMA_HOST: db
       MYSQL_ROOT_PASSWORD: contrasenyaRoot
     ports:
